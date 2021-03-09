@@ -91,7 +91,7 @@ class LinkedList:
             self.insert_at_beg(data)
         
         ctr=0
-        itr=self.head
+        itr=self.head   
         while ctr < idx -1:
             itr=itr.next
             ctr+=1
